@@ -3,6 +3,8 @@ import React from "react";
 const Container = () => {
   return (
     <>
+      <h1 className="text-xl text-center">Spacing in Tailwind CSS</h1>
+
       <h1>Margins</h1>
       <div className="m-3 bg-orange-400">Margin All Around</div>
       <div className="mx-4 bg-orange-400">Margin from X axies</div>
