@@ -45,9 +45,6 @@ const Navbar = () => {
         <li>
           <Link to="/animations">Animations</Link>
         </li>
-        <li>
-          <Link to="/custom">Custom CSS</Link>
-        </li>
       </ul>
     </div>
   );

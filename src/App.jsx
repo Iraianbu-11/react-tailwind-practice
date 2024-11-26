@@ -12,7 +12,6 @@ import Borders from "./components/Borders";
 import Breakpoints from "./components/Breakpoints";
 import Flexbox from "./components/Flexbox";
 import Animation from "./components/Animation";
-import Custom from "./components/Custom";
 import Grid from "./components/Grid";
 function App() {
   return (
@@ -32,7 +31,6 @@ function App() {
           <Route path="/flexbox" element={< Flexbox />} />
           <Route path="/grid" element={< Grid />} />
           <Route path="/animations" element={< Animation />} />
-          <Route path="/custom" element={< Custom />} />
         </Routes>
       </BrowserRouter>
     </>
