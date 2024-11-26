@@ -24,6 +24,9 @@ const Navbar = () => {
         <li>
           <Link to="/position">Position</Link>
         </li>
+        <li>
+          <Link to="/background">Background</Link>
+        </li>
       </ul>
     </div>
   );
