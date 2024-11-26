@@ -27,6 +27,27 @@ const Navbar = () => {
         <li>
           <Link to="/background">Background</Link>
         </li>
+        <li>
+          <Link to="/borders">Borders</Link>
+        </li>
+        <li>
+          <Link to="/filters">Filters</Link>
+        </li>
+        <li>
+          <Link to="/breakpoints">Breakpoints</Link>
+        </li>
+        <li>
+          <Link to="/flexbox">Flexbox</Link>
+        </li>
+        <li>
+          <Link to="/grid">Grids</Link>
+        </li>
+        <li>
+          <Link to="/animations">Animations</Link>
+        </li>
+        <li>
+          <Link to="/custom">Custom CSS</Link>
+        </li>
       </ul>
     </div>
   );

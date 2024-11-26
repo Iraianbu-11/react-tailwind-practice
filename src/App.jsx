@@ -7,6 +7,13 @@ import Navbar from "./components/Navbar";
 import Sizing from "./components/Sizing";
 import Position from "./components/Position";
 import Background from "./components/Background";
+import Filters from "./components/Filters";
+import Borders from "./components/Borders";
+import Breakpoints from "./components/Breakpoints";
+import Flexbox from "./components/Flexbox";
+import Animation from "./components/Animation";
+import Custom from "./components/Custom";
+import Grid from "./components/Grid";
 function App() {
   return (
     <>
@@ -19,6 +26,13 @@ function App() {
           <Route path="/sizing" element={< Sizing />} />
           <Route path="/position" element={< Position />} />
           <Route path="/background" element={< Background />} />
+          <Route path="/borders" element={< Borders />} />
+          <Route path="/filters" element={< Filters />} />
+          <Route path="/breakpoints" element={< Breakpoints />} />
+          <Route path="/flexbox" element={< Flexbox />} />
+          <Route path="/grid" element={< Grid />} />
+          <Route path="/animations" element={< Animation />} />
+          <Route path="/custom" element={< Custom />} />
         </Routes>
       </BrowserRouter>
     </>
