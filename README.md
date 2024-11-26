@@ -13,5 +13,10 @@
 </p>
 
 ---
+
 ### Screenshots
-![screenshot](image.png)
+
+![screenshot-1](./src/assets/screenshot-1.png)
+</br>
+
+![screenshot-2](./src/assets/screenshot-2.png)
